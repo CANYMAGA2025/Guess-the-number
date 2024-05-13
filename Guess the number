@@ -9,9 +9,9 @@ def guess_the_number():
         attempts += 1
 
         if guess < number:
-            print("Too low!")
+            print("loser!")
         elif guess > number:
-            print("Too high!")
+            print("winer")
         else:
             print("Congratulations! You guessed the number in", attempts, "attempts.")
             break
